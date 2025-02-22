@@ -10,6 +10,5 @@ func removeDuplicates(nums []int) int {
 			result = append(result, v)
 		}
 	}
-
 	return len(result)
 }
